@@ -1,0 +1,12 @@
+{
+    "machine": {
+        "host": "$host",
+        "username": "$username",
+        "password": "$password"
+    },
+    "commands": [
+        "docker run --name world-of-rations-redis -d redis"
+    ],
+    "directories": [],
+    "files": []
+}
